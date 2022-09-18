@@ -11,7 +11,7 @@ function App() {
   },[])
 
   const getHello = async () => {
-    const res = await axios.get('http://localhost:5000/api/v1')
+    const res = await axios.get('http://localhost/api/v1')
     setMsg(res.data)
   }
 
